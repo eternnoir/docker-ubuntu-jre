@@ -6,7 +6,6 @@ The Ubuntu Jre Docker Image.
 ## Get Image
 
 ### Default Jre
-i
 ```
 docker pull eternnoir/jre:latest
 ```
