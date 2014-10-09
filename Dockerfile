@@ -8,4 +8,4 @@ MAINTAINER Frank Wang "eternnoir@gmail.com"
 #update
 RUN apt-get -y update
 RUN apt-get -y upgrade
-RUN apt-get -y install default-jre
+RUN apt-get -y install openjdk-7-jre
