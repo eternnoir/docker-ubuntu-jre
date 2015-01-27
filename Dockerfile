@@ -6,8 +6,7 @@ FROM ubuntu:14.04
 MAINTAINER Frank Wang "eternnoir@gmail.com"
 
 #update
-RUN apt-get -y update
-RUN apt-get -y upgrade
+RUN apt-get -y update && apt-get -y upgrade && apt-get clean
 RUN apt-get -y install software-properties-common python-software-properties
 RUN add-apt-repository ppa:webupd8team/java 
 RUN apt-get -y update
